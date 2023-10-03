@@ -21,7 +21,7 @@ import Airtech from '../../assets/Sponsors/Airtech.png';
 import Ansys from '../../assets/Sponsors/ANSYS.png'; //Don't forget to capitalize if it is capitalized in the assets section.
 import Affinity from "../../assets/Sponsors/Affinity.png"
 
-import UBCPhysicsandAstronomy from '../../assets/Sponsors/UBCPhysicsandAstronomy.png';
+import UBCENPH from '../../assets/Sponsors/UBCENPH.jpg';
 import JLCPCB from '../../assets/Sponsors/JLCPCB.png';
 import UBCMechanicalEngineering from '../../assets/Sponsors/UBCMechanicalEngineering.png';
 import Fluor from '../../assets/Sponsors/Fluor.png';
@@ -200,7 +200,7 @@ const SponsorsPage = () => {
                             {({ isVisible }) =>
                                 <BronzeSponsorContainer>
                                     <BronzeSponsors
-                                        src={UBCPhysicsandAstronomy} style={{ opacity: `${isVisible ? '1' : '0'}` }} />
+                                        src={UBCENPH} style={{ opacity: `${isVisible ? '1' : '0'}` }} />
                                     <BronzeSponsors
                                         src={StRegis} style={{ opacity: `${isVisible ? '1' : '0'}` }} />
                                     <BronzeSponsors
