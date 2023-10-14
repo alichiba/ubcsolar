@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Home from './pages';
+import HomePage from './components/HomePage';
 import ProjectPage from "./components/ProjectPage";
 import CompetitionPage from "./components/CompetitionPage";
 import TeamRolePage from "./components/TeamRolePage";
@@ -29,14 +29,14 @@ function App() {
     <Routes>
       {/* Bug Inquiries */}
       {contacts()}
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/projects" element={<ProjectPage />} />
       <Route path="/competitions" element={<CompetitionPage />} />
       <Route path="/team-roles" element={<TeamRolePage />} />
       <Route path="/recruitment" element={<RecruitmentPage />} />
       <Route path="/sponsorships" element={<SponsorsPage />} />
       {/* Should create an error page (Something simple like an image or something) for any invalid routes */}
-      <Route path="*" element={<Home />} />
+      <Route path="*" element={<HomePage />} />
     </Routes>
     </>
   );

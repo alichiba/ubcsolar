@@ -157,9 +157,9 @@ const SponsorsPage = () => {
                             {({ isVisible }) =>
                                 <PlatinumSponsorContainer>
                                     <PlatinumSponsors
-                                        src={Ansys} style={{ opacity: `${isVisible ? '1' : '0'}` }} height="300px" />
+                                        src={Ansys} style={{ opacity: `${isVisible ? '1' : '0'}` }} height="200px" />
                                     <PlatinumSponsors
-                                        src={Affinity} style={{ opacity: `${isVisible ? '1' : '0'}` }} height="300px" />
+                                        src={Affinity} style={{ opacity: `${isVisible ? '1' : '0'}` }} height="200px" />
                                 </PlatinumSponsorContainer>
                             }
                         </VisibilitySensor>

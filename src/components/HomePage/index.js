@@ -94,18 +94,20 @@ const HomePage = () => {
                         </a>                       
                     </NavBtn> */}
                     
-                    <ArrowLevitate to='meet'>
+                    {/* <ArrowLevitate to='meet'>
+                        <h2><span style={{fontSize: '0.7em', marginTop: '20%'}}>Applications open: 28 August 2023 - 17 September 2023, 11:59PM PST</span></h2>      
+                    </ArrowLevitate> */}
+
+                    {/* Previously commented out ArrowLevitate sub-components */}
                         {/* <div style={{height: '15px'}}></div> */}
                         {/* <h3><span style={{align: 'center'}}>We Are Recruiting!</span></h3> */}
-                        <h2><span style={{fontSize: '0.7em', marginTop: '20%'}}>Applications open: 28 August 2023 - 17 September 2023, 11:59PM PST</span></h2>
                         {/* <FaAngleDown size="80px" cursor="pointer" ></FaAngleDown> */}
-                    </ArrowLevitate>
                     
-                    <NavBtn>
+                    {/* <NavBtn>
                         <a href='https://forms.gle/pLXxU2P4KSWpDhyD6' target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                             <NavBtnLink>Apply Now</NavBtnLink>
                         </a>
-                    </NavBtn>
+                    </NavBtn> */}
                     
                 </HomeHeroContainer>    
 

@@ -57,15 +57,15 @@ export const NavBtn = styled.nav`
     @media screen and (max-width: 405px) {
         top: calc(21%);
     }
-    @media screen and (max-height: 710px) {
-        top: calc(26%);
-    }
-    @media screen and (max-height: 770px) {
-        top: calc(23%);
-    }
-    @media screen and (max-height: 720px) {
-        top: calc(26%);
-    }
+    // @media screen and (max-height: 710px) {
+    //     top: calc(26%);
+    // }
+    // @media screen and (max-height: 770px) {
+    //     top: calc(23%);
+    // }
+    // @media screen and (max-height: 720px) {
+    //     top: calc(26%);
+    // }
 `;
 
 export const NavBtnLink1 = styled.nav`
@@ -271,7 +271,7 @@ export const PlatinumSponsors = styled.img`
     padding-bottom: 1vh;
 
     @media screen and (max-width: 1200px) {
-        zoom: .6;
+        zoom: .5;
         padding-bottom: 3vh;
     }
 
